@@ -1,7 +1,7 @@
 {
-  "name": "hapiL",
+  "name": "hapi-learn",
   "version": "1.0.0",
-  "description": "Hapi learning",
+  "description": "Hapi learning with modules and extensions",
   "main": "server.js",
   "dependencies": {
     "hapi": "^16.4.3"
