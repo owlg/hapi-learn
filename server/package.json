@@ -5,7 +5,8 @@
   "main": "server.js",
   "dependencies": {
     "hapi": "^16.4.3",
-    "inert": "^4.2.0" 
+    "hapi-auth-jwt2": "^7.2.4",
+    "inert": "^4.2.0"
   },
   "devDependencies": {},
   "scripts": {
