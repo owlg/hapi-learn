@@ -1,3 +1,10 @@
+//Packages info
+/*
+ Hapi - standard
+ Inert - serves static files/pages
+
+*/
+
 'use strict';
 
 const Hapi = require('hapi');
@@ -33,10 +40,12 @@ server.route({
 server.route({
   method: 'GET',
   path:'/user/{name}',
-  handler: function (request,reply) {
+  handler: function (request, reply) {
     reply('Hello ' +encodeURIComponent(request.params.name) + '!');
   }
 });
+
+
 // Start the server
 server.start((err) => {
 

@@ -4,7 +4,8 @@
   "description": "Hapi learning with modules and extensions",
   "main": "server.js",
   "dependencies": {
-    "hapi": "^16.4.3"
+    "hapi": "^16.4.3",
+    "inert": "^4.2.0" 
   },
   "devDependencies": {},
   "scripts": {
