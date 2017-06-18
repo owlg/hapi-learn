@@ -28,6 +28,15 @@ server.route({
     return reply('SUCCESS!');
   }
 });
+
+//Routing and saying custom HELLO message
+server.route({
+  method: 'GET',
+  path:'/user/{name}',
+  handler: function (request,reply) {
+    reply('Hello ' +encodeURIComponent(request.params.name) + '!');
+  }
+});
 // Start the server
 server.start((err) => {
 
